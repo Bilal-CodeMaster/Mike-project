@@ -160,9 +160,9 @@
   max-height: 150px;
   overflow-y: auto;
   z-index: 99999999;
-  width: 22.9rem;
-  position: absolute;
-  top: 64px;
+
+  position: relative;
+
   left: 0px;
 }
 .dropdown-item input[type="checkbox"] {

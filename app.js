@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function openModal(button) {
-  
   // Get the button element by ID
   const buttonDetail = document.querySelector(`#${button.id}`);
 
@@ -69,9 +68,6 @@ function openModal(button) {
   document.getElementById("modal").style.display = "block";
 }
 
-function closeModal() {
-  document.getElementById("modal").style.display = "none";
-}
 const tabMenuBtn = document.querySelectorAll(".tab-btn");
 
 tabMenuBtn.forEach((el) => {

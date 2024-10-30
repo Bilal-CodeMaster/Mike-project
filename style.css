@@ -684,7 +684,7 @@ textarea {
   }
 
   .scrollable-content {
-    max-height: 400px;
+    max-height: 73vh;
   }
   body::-webkit-scrollbar {
     display: none !important;
@@ -706,5 +706,43 @@ textarea {
   }
   .dropdown.open .dropdown-content {
     width: 67.5%;
+  }
+  .tab-menu button {
+    background: none;
+    border: none;
+    font-weight: bold;
+
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .modal-content {
+    min-height: 100vh;
+    max-width: 99vw !important;
+    min-width: 0px !important;
+    left: -88px;
+  }
+  .scrollable-content {
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  .tab-menu {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    width: 100%;
+    gap: 9px;
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+    z-index: 1;
+  }
+  .tab-modal {
+    padding: 3px;
+  }
+  .button-group button {
+    font-size: 13px;
+  }
+  .scrollable-content {
+    max-height: 61vh;
   }
 }
